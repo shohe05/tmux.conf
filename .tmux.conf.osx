@@ -9,14 +9,14 @@ set-window-option -g utf8 on
 ##----------------------------------------------------------------------------
 ## * 基本設定
 ##----------------------------------------------------------------------------
-# prefixキーをC-jに変更
-set -g prefix C-j
+# prefixキーをC-tに変更
+set -g prefix C-t
 
 # C-bのキーバインドを解除
 unbind C-b
 
-# C-j * 2でtmux内のプログラムにC-jを送る
-bind C-j send-prefix
+# C-t * 2でtmux内のプログラムにC-tを送る
+bind C-t send-prefix
 
 # Vimのキーバインドでペインをリサイズする
 bind -r H resize-pane -L 5
